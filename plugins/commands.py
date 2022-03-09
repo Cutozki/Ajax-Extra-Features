@@ -45,7 +45,7 @@ async def start(client, message):
             InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/+1IYAodT0pBw0NjU1'),
-            InlineKeyboardButton('sᴇᴀʀᴄʜ🔍', url='@Hexafire45_bot')
+            InlineKeyboardButton('ʜᴏʟʟʏᴡᴏᴏᴅ', url='https://t.me/+A22vmPQMGWk1ZmY1')
             ],[      
             InlineKeyboardButton('♻️ʜᴇʟᴘ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ᴀʙᴏᴜᴛ♻️', callback_data='about')
@@ -60,7 +60,7 @@ async def start(client, message):
             parse_mode='html'
         )
         await message.reply_chat_action("Typing")
-        m=await message.reply_sticker("CAACAgQAAxkBAAEBB2ZiJjhMEWxwMEQZQ3P8MnO_1kqiKQACpDgAAjGNRgAB7LQc4Pny-AIeBA") 
+        m=await message.reply_sticker("CAACAgUAAxkBAAECFBBiKJXuwoe0es1C2embjm4xKDFcMgACeQADCRqTHc6tYqcsttYCHgQ") 
         await asyncio.sleep(2)
         await m.delete()
         return
@@ -91,8 +91,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/MWUpdatez'),
-            InlineKeyboardButton('sᴇᴀʀᴄʜ🔍', url='https://t.me/OpusTechz')
+            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/Mkvtvseris'),
+            InlineKeyboardButton('ʜᴏʟʟʏᴡᴏᴏᴅ', url='https://t.me/+A22vmPQMGWk1ZmY1')
             ],[      
             InlineKeyboardButton('♻️ ʜᴇʟᴘ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about')
@@ -101,7 +101,7 @@ async def start(client, message):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action("Typing")
-        m=await message.reply_sticker("CAACAgQAAxkBAAEBB2ZiJjhMEWxwMEQZQ3P8MnO_1kqiKQACpDgAAjGNRgAB7LQc4Pny-AIeBA") 
+        m=await message.reply_sticker("CAACAgUAAxkBAAECFBBiKJXuwoe0es1C2embjm4xKDFcMgACeQADCRqTHc6tYqcsttYCHgQ") 
         await asyncio.sleep(2)
         await m.delete()
         await message.reply_photo(
