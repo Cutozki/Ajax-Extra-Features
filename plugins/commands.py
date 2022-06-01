@@ -97,7 +97,7 @@ async def start(client, message):
             InlineKeyboardButton('♻️ ʜᴇʟᴘ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('ᴡᴇʙsɪᴛᴇ', url='https://Hollyflix.ml')
+            InlineKeyboardButton('ᴡᴇʙsɪᴛᴇ', url='https://9xflixplay.ml')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action("Typing")
