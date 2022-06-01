@@ -863,7 +863,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply4 = await reply3.edit_text(
             text="▣▣▣"
         )
-        await reply4.delete()   
+        await reply4.delete()
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="𝙾𝙿𝚄𝚂-𝚃𝙴𝙲𝙷𝚉"
+        )
         await query.message.edit_text(                     
             text=script.HELP_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
